@@ -11,6 +11,6 @@ def line(katz_deli)
 end
 
 def take_a_number(katz_deli, person)
-  katz_deli = "Ada"
-  return take_a_number
+  katz_deli << "Ada"
+  return katz_deli
 end
