@@ -11,6 +11,7 @@ def line(katz_deli)
 end
 
 def take_a_number(katz_deli, person)
-  katz_deli << "Ada"
+  katz_deli << person
+  puts "Welcome #{person}. You are number #{katz_deli.size} in line."
   return katz_deli
 end
